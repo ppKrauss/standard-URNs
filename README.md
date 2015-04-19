@@ -3,7 +3,7 @@ standard-URNs
 
 In nowadays [**URN**](https://en.wikipedia.org/wiki/Uniform_resource_name) (Uniform Resource Name) is a low-use standard, is near to abandoned as "architectural solution" in [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture) and other architectures.
 
-The necessity to "resolve URNs" can't to wait the [many-years IANA assignment process](http://www.iana.org/assignments/uRN-Namespaces/uRN-Namespaces.xml), neither the URN-Namespace "registration desire" of *de facto* URNs (like [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)). The "potential URN user communities", local and/or international, need to use URNs to *"Give Things Names, Not Just Addresses"*, and these communities are as legitimate as IANA to assign their official namespaces.
+The necessity to "resolve URNs" can't to wait the [many-years IANA assignment process](http://www.iana.org/assignments/urn-namespaces), neither the URN-Namespace "registration desire" of *de facto* URNs (like [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)). The "potential URN user communities", local and/or international, need to use URNs to *"Give Things Names, Not Just Addresses"*, and these communities are as legitimate as IANA to assign their official namespaces.
 
 Traditional URN architecture assumes a DNS-based [Resolution Discovery Service (RDS)](https://tools.ietf.org/html/rfc2276) to find the service appropriate to the given *URN scheme*; but no such widely deployed RDS schemes currently exist... However a user community not need to wait the day when RDS mechanisms supporting URN specifications become widely available. The only thing that the community need is some consensus about what is a relevant URN-Namespace and its URN-Resolver.
 
@@ -16,6 +16,14 @@ This project is also a *open `git` colaboration space* for discuss the relevant 
 
 ## How to use ##
 .. see the `datapackage.json` the little `standard-URNs.csv` file, you can use it in server or client applications ...
+
+* [`standard-URNs.csv`](data/standard-URNs.csv) -  [community](https://docs.google.com/spreadsheets/d/1UuzXGcsGAn9UBYstmUvlaDHmNYo_-vxgvXC-dev_bFU/edit?usp=sharing) - community building list and attributes.
+* [`urn-namespaces-1.csv`](data/urn-namespaces-1.csv) - [community](https://docs.google.com/spreadsheets/d/1u_Few2f6XcNjY67qGGJ934SAYqLqP-0-y-tVfDAjrGw/edit?usp=sharing) - the [IANA list](http://www.iana.org/assignments/urn-namespaces/urn-namespaces-1.csv), enhanced with a "Used" column.
+ 
+## Prepare ##
+Methodology in the `/data/*.csv` files contruction.
+ 
+...
 
 ----
 

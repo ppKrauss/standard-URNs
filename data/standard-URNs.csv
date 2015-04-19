@@ -1,0 +1,7 @@
+URN-prefix,IANA,concatOnlyVal,URL-type,URL-base,sql-like-signature,regex-pcre-signature
+urn:doi:,de-facto,yes,n2u,https://dx.doi.org/,%doi.org/,~^(https?://)(dx.)?doi.org/$~i
+urn:ietf:rfc:,yes,yes,n2u,http://tools.ietf.org/html/rfc,%ietf.org/html/rfc,~ietf.org/html/rfc$~i
+urn:isbn:,yes,yes,n2u,https://en.wikipedia.org/wiki/Special:BookSources/,%wikipedia.org%Special,~wikipedia.org.+Special~i
+urn:issn:,yes,yes,n2u,https://www.worldcat.org/ISSN/,%worldcat.org%issn%,~^(https?://)?(www.)?worldcat.org/ISSN~i
+urn:lex:br,candidate,no,n2u,http://www.lexml.gov.br/urn/,%lexml.gov.br/urn/,~^(https?://)?(www.)?lexml.gov.br/urn/$~i
+urn:ok:issn-l:,no,yes,n2c,http://xmlfusion.org/demo/urn-microservice/urn:ok:issn-l:,%xmlfusion.org/demo%,~xmlfusion.org/demo~i

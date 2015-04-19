@@ -1,0 +1,77 @@
+{
+  "name": "standard-URNs",
+  "title": "Enabling the use of the URN standard and assigning de facto URN-resolvers.",
+  "format": "csv",
+  "datapackage_version": "1.0",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "name": "Public Domain Dedication and License",
+      "version": "1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "current urn-namespaces-1.csv",
+      "web": "http://www.iana.org/assignments/urn-namespaces/urn-namespaces-1.csv"
+    },
+    {
+      "name": "current standard-URNs community colaborative spreadsheet",
+      "web": "https://docs.google.com/spreadsheets/d/1UuzXGcsGAn9UBYstmUvlaDHmNYo_-vxgvXC-dev_bFU/"
+    },
+  ],
+
+  "resources": [
+     {
+      "url": "https://github.com/ppKrauss/standard-URNs/master/data/standard-URNs.csv",
+      "path": "data/standard-URNs.csv",
+      "date": "2015-04-19",
+
+      "schema": {"fields": [
+		  {
+		    "name": "URN-prefix",
+		    "description": "URN prefix (ex. urn:ietf:rfc:)",
+		    "type": "string"
+		  },
+		  {
+		    "name": "IANA",
+		    "description": "Indicate official IANA URN. Can be 'yes','not', 'de-facto' or 'candidate'.",
+		    "type": "string"
+		  },
+		  {
+		    "name": "concatOnlyVal",
+		    "description": "'yes' indicate that only value after prefix must to concat with the URL-base.",
+		    "type": "string"
+		  },
+		  {
+		    "name": "URL-type",
+		    "description": "the type of resolution in the RFC2169 jargon (N2L,isN, etc.).",
+		    "type": "string"
+		  },
+		  {
+		    "name": "URL-base",
+		    "description": "The URL of the URN-Resolver.",
+		    "type": "string"
+		  },
+		  {
+		    "name": "sql-like-signature",
+		    "description": "A 'signature' of the URL-base in a SQL LIKE operator.",
+		    "type": "string"
+		  },
+		  {
+		    "name": "regex-pcre-signature",
+		    "description": "A 'signature' of the URL-base in a PCRE regular expression.",
+		    "type": "string"
+		  }
+	]}
+     }
+
+   ],
+
+  "maintainers":[{
+    "name": "PPKRAUSS",
+    "web": "https://github.com/ppKrauss/standard-URNs"
+  }]
+}
