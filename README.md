@@ -7,12 +7,10 @@ The necessity to "resolve URNs" can't to wait the [many-years IANA assignment pr
 
 Traditional URN architecture assumes a DNS-based [Resolution Discovery Service (RDS)](https://tools.ietf.org/html/rfc2276) to find the service appropriate to the given *URN scheme*; but no such widely deployed RDS schemes currently exist... However a user community not need to wait the day when RDS mechanisms supporting URN specifications become widely available. The only thing that the community need is some consensus about what is a relevant URN-Namespace and its URN-Resolver.
 
-The more simple and basic URN resolution task is to check if a name exist. See *isN* resolver command of [RFC2169](http://tools.ietf.org/html/rfc2169).
-
-## Objetive ##
+## Objective ##
 List consensual URN-Namespaces that have also a public resolution mechanism, and describe some basic and util attributes of these URN-Namespaces.
 
-This project is also a *open `git` colaboration space* for discuss the relevant attributes, the curatorial process, etc.
+This project is also a *open `git` collaboration space* for discuss the relevant attributes, the curatorial process, etc.
 
 ## How to use ##
 .. see the `datapackage.json` the little `standard-URNs.csv` file, you can use it in server or client applications ...
