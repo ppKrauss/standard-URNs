@@ -7,6 +7,8 @@ The necessity to "resolve URNs" can't to wait the [many-years IANA assignment pr
 
 Traditional URN architecture assumes a DNS-based [Resolution Discovery Service (RDS)](https://tools.ietf.org/html/rfc2276) to find the service appropriate to the given *URN scheme*; but no such widely deployed RDS schemes currently exist... However a user community not need to wait the day when RDS mechanisms supporting URN specifications become widely available. The only thing that the community need is some consensus about what is a relevant URN-Namespace and its URN-Resolver.
 
+As defined by [RFC3406-sec3.1](http://tools.ietf.org/html/rfc3406#section-3.1), there are the "Experimental Namespaces", taking the form `URN:X-<NID>`, that are not explicitly registered with IANA. It is extremally informal. The community need a minimal standarization process for reliable conventions, and minimal persistence/stability in its implementation.  This gap of formality can be also filled by this project, see the proposal of `urn:x-ok` as "OKFN community standard".
+
 ## Objective ##
 List consensual URN-Namespaces that have also a public resolution mechanism, and describe some basic and util attributes of these URN-Namespaces.
 
