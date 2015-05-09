@@ -3,7 +3,7 @@ standard-URNs
 
 In nowadays [**URN**](https://en.wikipedia.org/wiki/Uniform_resource_name) (Uniform Resource Name) is a low-use standard... But is,  among other things, an "conceptual solution" in [SOA](https://en.wikipedia.org/wiki/Service-oriented_architecture) and microservices... And perhaps a [good solution for some Schema.org problems](https://github.com/schemaorg/schemaorg/issues/405).
 
-The necessity to "resolve URNs" not need to wait the [many-years IANA assignment process](http://www.iana.org/assignments/urn-namespaces), neither the URN-Namespace "registration desire" of *de facto* URNs (like [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)). The "potential URN user communities", local and/or international, need to use URNs to *"Give Things Names, Not Just Addresses"*, and these communities are as legitimate as IANA to assign their official namespaces in their scope.
+The necessity to "resolve URNs" not need to wait the [many-years IANA assignment process](http://www.iana.org/assignments/urn-namespaces), neither the URN-Namespace "registration desire" of *de facto* URNs (like [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)). The "potential URN user communities", local and/or international, need to use URNs to *"Give Things Names, Not Just Addresses"*[1](http://www.persid.org/initiative.html), and these communities are as legitimate as IANA to assign their official namespaces in their scope.
 
 ## Objective ##
 List consensual URN-Namespaces (of a community) that have also a public resolution mechanism, and describe some basic and util attributes of these URN-Namespaces.
